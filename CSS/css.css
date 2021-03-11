@@ -1,0 +1,96 @@
+
+
+#navBar {
+    display: flex;
+    flex-direction: row;
+    margin: none;
+  }
+  #navBar img {
+    width: 10%;
+    display: flex;
+    justify-content:flex-start;
+  }
+  #navigation {
+    display: flex;
+    width: 90%;
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+  #navigation p{
+      padding-left: 15px;
+      padding-right: 15px;
+      margin-right: 25px;
+      font-family: 'Bebas Neue', cursive;
+      font-size: 24px;
+  }
+ 
+
+#content{
+    height: 700px;
+    display: grid;
+    grid-template-rows: 250px 15px 250px;
+    grid-template-areas:
+    "intro"
+    "mypic"
+    "about"
+}
+
+#intro{
+    grid-area: intro;
+    width: 100%;
+    background-color: #BFA1A2;
+}
+
+#introText{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 48px;
+    color:white;
+    height: 250px;
+    text-align: center;
+    padding-top: 20px;
+    
+}
+
+
+#about{
+    grid-area: about;
+}
+
+#aboutText{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: black;
+    height:250px;
+    text-align: center;
+    padding-top:80px;
+}
+
+#mypic{
+    grid-area: mypic;
+    justify-content: center;
+    align-content: center;
+    place-self: center;
+    z-index: 100;
+
+}
+
+#footer{
+    display:flex;
+}
+
+a {
+    color: black;
+    font-family: 'Roboto', sans-serif ;
+    text-align: center;
+    font-size: 18px;
+    text-decoration: none;
+    display:flex;
+    align-items: center;
+}
+
+.socialmedia{
+    float: left;
+}
+
+
